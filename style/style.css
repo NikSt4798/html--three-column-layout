@@ -1,13 +1,12 @@
 .header {
-  background: orange;
   padding: 10px;
+  font-weight: 700;
   font-size: larger;
   font-family: "Segoe UI";
-  font-weight: 700;
+  background: orange;
 }
 .layout {
   position: relative;
-  
 }
 
 .layout div {
@@ -17,25 +16,23 @@
 
 .layout p {
   margin: 10px;
-
-
   font-size: normal;
   font-family: "Segoe UI";
 }
 
 .col1 {
-  background: palegoldenrod;
   width: 33%;
+  background: palegoldenrod;
 }
 
 .col2 {
-  background: palegreen;
-  width: 34%;
   left: 33%;
+  width: 34%;
+  background: palegreen;
 }
 
 .col3 {
-  background: paleturquoise;
-  width: 33%;
   right: 0;
+  width: 33%;
+  background: paleturquoise;
 }
