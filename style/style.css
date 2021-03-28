@@ -1,9 +1,7 @@
 .header {
   padding: 10px;
   font-weight: 700;
-
   font-size: larger;
-
   font-family: "Segoe UI";
   background: orange;
 }
@@ -19,7 +17,6 @@
 .layout p {
   margin: 10px;
   font-size: normal;
-
   font-family: "Segoe UI";
 }
 

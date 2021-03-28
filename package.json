@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "prettier --check . && eslint . && stylelint '**/*{.css,.scss}'",
-    "lint:fix": "prettier --write . && eslint --fix && stylelint '**/*{.css,.scss}' --fix",
+    "lint": "prettier --check . && eslint . && stylelint style/*.css ",
+    "lint:fix": "prettier --write . && eslint --fix && stylelint style/*.css --fix",
     "watch": "webpack --watch",
     "start": "webpack serve --open",
     "build": "webpack"
