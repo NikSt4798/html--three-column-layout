@@ -1,38 +1,41 @@
-.header{
-    background: orange;
-    padding: 10px;
-    font-size: larger;
-    font-family: 'Segoe UI';
-    font-weight: 700
+.header {
+  background: orange;
+  padding: 10px;
+  font-size: larger;
+  font-family: "Segoe UI";
+  font-weight: 700;
 }
-.layout{
-    position: relative;
-}
-
-.layout div{
-    position: absolute;
-    text-align: justify;
+.layout {
+  position: relative;
+  
 }
 
-.layout p{
-    margin: 10px;    
-    font-size: normal;
-    font-family: 'Segoe UI';
+.layout div {
+  position: absolute;
+  text-align: justify;
 }
 
-.col1{
-    background: palegoldenrod;
-    width: 33%;
+.layout p {
+  margin: 10px;
+
+
+  font-size: normal;
+  font-family: "Segoe UI";
 }
 
-.col2{
-    background: palegreen;
-    width: 34%;
-    left: 33%;
+.col1 {
+  background: palegoldenrod;
+  width: 33%;
 }
 
-.col3{
-    background: paleturquoise;
-    width: 33%;
-    right: 0;
+.col2 {
+  background: palegreen;
+  width: 34%;
+  left: 33%;
+}
+
+.col3 {
+  background: paleturquoise;
+  width: 33%;
+  right: 0;
 }
