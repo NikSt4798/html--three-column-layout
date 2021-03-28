@@ -45,13 +45,9 @@
     "webpack-dev-server": "^3.11.2"
   },
   "lint-staged": {
-    "*.js": "eslint --cache --fix",
-    "*.{js,css,md,json,html}": "prettier --write .",
-    "*.(css|scss)": [
-      "stylelint --fix"
-    ],
-    "*.css": "stylelint --fix",
-    "*.{js,css,md}": "prettier --write"
+    "*.js": "eslint --fix",
+    "*.{js,css,md,json,html}": "prettier --write",
+    "*.css": "stylelint --fix"
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"
