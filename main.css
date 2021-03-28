@@ -1,0 +1,39 @@
+.header {
+  padding: 10px;
+  font-weight: 700;
+  font-size: larger;
+  font-family: "Segoe UI";
+  background: orange;
+}
+.layout {
+  position: relative;
+}
+
+.layout div {
+  position: absolute;
+  text-align: justify;
+}
+
+.layout p {
+  margin: 10px;
+  font-size: normal;
+  font-family: "Segoe UI";
+}
+
+.col1 {
+  width: 33%;
+  background: palegoldenrod;
+}
+
+.col2 {
+  left: 33%;
+  width: 34%;
+  background: palegreen;
+}
+
+.col3 {
+  right: 0;
+  width: 33%;
+  background: paleturquoise;
+}
+
