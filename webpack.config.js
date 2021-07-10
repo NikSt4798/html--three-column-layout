@@ -8,6 +8,7 @@ module.exports = {
     filename: "index.js",
     path: path.resolve(__dirname, "./dist"),
   },
+  mode: "development",
   devServer: {
     contentBase: path.join(__dirname, "./dist"),
     compress: true,
@@ -29,6 +30,17 @@ module.exports = {
         test: /\.html$/i,
         loader: "html-loader",
       },
+      {
+        test: /\.(png|jpg)$/,
+        loader: "url-loader",
+        options: {
+          limit: 81920,
+        },
+      },
     ],
+  },
+  performance: {
+    maxEntrypointSize: 10000000,
+    maxAssetSize: 10000000,
   },
 };
