@@ -1,39 +1,40 @@
-.header {
-  padding: 10px;
+body {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-rows: auto 1fr auto;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Segoe UI";
+  background-image: url(7009aab4fa6c7996113a98be86ce8164.jpg);
+  background-size: cover;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  column-gap: 10px;
+}
+
+header {
+  align-self: start;
   font-weight: 700;
   font-size: larger;
-  font-family: "Segoe UI";
+  text-align: center;
   background: orange;
 }
-.layout {
-  position: relative;
+
+main {
+  padding: 5px;
+  background-color: pink;
 }
 
-.layout div {
-  position: absolute;
-  text-align: justify;
+aside {
+  padding: 5px;
+  background-color: powderblue;
 }
 
-.layout p {
-  margin: 10px;
-  font-size: normal;
-  font-family: "Segoe UI";
-}
-
-.col1 {
-  width: 33%;
-  background: palegoldenrod;
-}
-
-.col2 {
-  left: 33%;
-  width: 34%;
-  background: palegreen;
-}
-
-.col3 {
-  right: 0;
-  width: 33%;
-  background: paleturquoise;
+footer {
+  padding: 5px;
+  background-color: sandybrown;
 }
 
