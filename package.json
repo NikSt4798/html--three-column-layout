@@ -7,7 +7,7 @@
     "lint": "prettier --check . && eslint . && stylelint style/*.css ",
     "lint:fix": "prettier --write . && eslint --fix && stylelint style/*.css --fix",
     "watch": "webpack --watch",
-    "start": "webpack serve --open --mode development",
+    "start": "webpack serve --open",
     "build": "webpack --mode production"
   },
   "repository": {
@@ -25,6 +25,7 @@
     "css-loader": "^5.2.0",
     "eslint": "^7.23.0",
     "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.22.1",
     "file-loader": "^6.2.0",
     "html-loader": "^2.1.2",
@@ -54,8 +55,5 @@
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"
-  },
-  "dependencies": {
-    "eslint-config-prettier": "^8.1.0"
   }
 }
