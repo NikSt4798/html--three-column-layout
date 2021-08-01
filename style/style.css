@@ -1,0 +1,40 @@
+body {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-rows: auto 1fr auto;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Segoe UI";
+  background-image: url("../img/cat.jpg");
+  background-size: cover;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  column-gap: 10px;
+}
+
+header {
+  align-self: start;
+  font-weight: 700;
+  font-size: larger;
+  text-align: center;
+  background: orange;
+}
+
+main {
+  padding: 5px;
+  background-color: pink;
+}
+
+aside {
+  padding: 5px;
+  background-color: powderblue;
+}
+
+footer {
+  padding: 5px;
+  vertical-align: bottom;
+  background-color: sandybrown;
+}
