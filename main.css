@@ -35,6 +35,7 @@ aside {
 
 footer {
   padding: 5px;
+  vertical-align: bottom;
   background-color: sandybrown;
 }
 
